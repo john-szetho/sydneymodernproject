@@ -1,0 +1,6 @@
+# GIT IGNORE
+
+*.scss
+*.map
+*/sass
+*.DS_Store

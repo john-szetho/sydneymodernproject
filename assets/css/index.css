@@ -1,0 +1,103 @@
+/*! minireset.css v0.0.6 | MIT License | github.com/jgthms/minireset.css */
+html, body, p, ol, ul, li, dl, dt, dd, blockquote, figure, fieldset, legend, textarea, pre, iframe, hr, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+ul {
+  list-style: none;
+}
+
+button, input, select {
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+img, video {
+  height: auto;
+  max-width: 100%;
+}
+
+iframe {
+  border: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td, th {
+  padding: 0;
+}
+
+@font-face {
+  font-family: "Graphik";
+  font-style: normal;
+  font-weight: 400;
+  src: url(/assets/fonts/Graphik-Regular-Web.woff) format("woff");
+  src: url(/assets/fonts/Graphik-Regular-Web.woff2) format("woff2");
+}
+@font-face {
+  font-family: "Graphik";
+  font-style: bold;
+  font-weight: 700;
+  src: url(/assets/fonts/Graphik-Medium-Web.woff) format("woff");
+  src: url(/assets/fonts/Graphik-Medium-Web.woff2) format("woff2");
+}
+:root {
+  --mu_red: #DC3A38;
+  --mu_white: #FFFFFF;
+  --mu_white_50: #E6807A;
+  --mu_white_0: #FFFFFF00;
+  --mu_black: #121212;
+  --agnsw_blue: #0a279c;
+  --agnsw_bg: #545456;
+}
+
+html {
+  font-size: 100%;
+  font-size: 1.2vw;
+}
+
+body, h1, h2, h3, p, a {
+  font-family: "Graphik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.4vw;
+  line-height: 104%;
+  color: var(--mu_black);
+}
+
+body {
+  background-color: var(--agnsw_bg);
+}
+body header {
+  padding: 1vw;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: flex-end;
+}
+body header img {
+  width: 24vw;
+}
+body main section.book {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/*# sourceMappingURL=index.css.map */
